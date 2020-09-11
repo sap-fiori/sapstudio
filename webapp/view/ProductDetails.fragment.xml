@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:form="sap.ui.layout.form">
+	<Panel
+		class="sapUiResponsiveMargin"
+		width="auto"
+		headerText="{i18n>productTitle}">
+		<content>
+			<form:SimpleForm>
+				<form:content>
+					<Label text="{i18n>productCategoryLabel}"/>
+					<Text text="{Category}"/>
+					<Label text="{i18n>productNameLabel}"/>
+					<Text text="{Name}"/>
+					<Label text="{i18n>productWeightLabel}"/>
+					<Text text="{= ${WeightMeasure} + ' ' + ${WeightUnit}}"/>
+				</form:content>
+			</form:SimpleForm>
+		</content>
+	</Panel>
+</core:FragmentDefinition>
