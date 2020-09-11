@@ -16,8 +16,12 @@
 								<content>
 									<Carousel class="myAppCrsl">
 									<pages>
-										<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="600px"/>
 										<Image
+											tooltip="When you pass your mouse you see this message!"
+											src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" 
+											height="600px"/>
+										<Image
+											tooltip="Hello World image"
 											src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Wikipedia_Hello_World_Graphic.svg/2000px-Wikipedia_Hello_World_Graphic.svg.png"
 											height="600px"/>
 									</pages>
